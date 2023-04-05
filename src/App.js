@@ -5,16 +5,7 @@ import styles from "./styles/Home.module.css";
 import Switch from "./components/switch";
 
 export default function App() {
-  const [data, setData] = useState([
-    {
-      x: [3],
-      y: [4],
-      z: [5],
-      type: "scatter3d",
-      mode: "markers",
-      name: "base",
-    },
-  ]);
+  const [data, setData] = useState([]);
   const [singleX, setSingleX] = useState("");
   const [singleY, setSingleY] = useState("");
   const [singleZ, setSingleZ] = useState("");
